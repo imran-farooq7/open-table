@@ -1,7 +1,4 @@
-import Header from "@/components/Header";
-import NavBar from "@/components/NavBar";
-import ResturantCard from "@/components/ResturantCard";
-import Image from "next/image";
+import ResturantCard from "@/components/RestaurantCard";
 
 export default function Home() {
 	return (
