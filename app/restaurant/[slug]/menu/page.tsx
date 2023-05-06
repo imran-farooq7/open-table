@@ -1,5 +1,5 @@
 type Props = {};
-const page = (props: Props) => {
+const RestaurantMenu = (props: Props) => {
 	return (
 		<div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
 			<div className="bg-white w-[100%] rounded p-3 shadow">
@@ -38,4 +38,4 @@ const page = (props: Props) => {
 		</div>
 	);
 };
-export default page;
+export default RestaurantMenu;
