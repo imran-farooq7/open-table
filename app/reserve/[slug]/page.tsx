@@ -1,5 +1,5 @@
 type Props = {};
-const RestaurantMenu = (props: Props) => {
+const Reserve = (props: Props) => {
 	return (
 		<div className="border-t h-screen">
 			<div className="py-9 w-3/5 m-auto">
@@ -69,4 +69,4 @@ const RestaurantMenu = (props: Props) => {
 		</div>
 	);
 };
-export default RestaurantMenu;
+export default Reserve;

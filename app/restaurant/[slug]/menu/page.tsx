@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {};
 const RestaurantMenu = (props: Props) => {
 	return (
@@ -5,10 +7,10 @@ const RestaurantMenu = (props: Props) => {
 			<div className="bg-white w-[100%] rounded p-3 shadow">
 				{/* RESAURANT NAVBAR */}
 				<nav className="flex text-reg border-b pb-2">
-					<a href="" className="mr-7">
+					<Link href="/restaurant/kfc" className="mr-7">
 						{" "}
 						Overview{" "}
-					</a>
+					</Link>
 					<a href="" className="mr-7">
 						{" "}
 						Menu{" "}

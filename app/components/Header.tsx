@@ -1,5 +1,12 @@
+"use client";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+
 type Props = {};
 const Header = (props: Props) => {
+	const router = useRouter();
+	const [location, setLocation] = useState<string>("");
+
 	return (
 		<div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
 			<div className="text-center mt-10">
